@@ -1,3 +1,5 @@
 *.safetensors
 models/
 .env
+
+!models/.gitkeep
