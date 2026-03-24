@@ -17,8 +17,8 @@ client = OpenAI(
     base_url="https://api.groq.com/openai/v1"
 )
 
-CSV_FILE_PATH = "./data/웰니스_대화_스크립트_데이터셋.xlsx"
-OUTPUT_FILE_PATH = "fact_coach_dataset_expert_final.json"
+CSV_FILE_PATH = "../dataset/웰니스_대화_스크립트_데이터셋.xlsx"
+OUTPUT_FILE_PATH = "../data/fact_coach_dataset_expert_final.json"
 
 def get_categorized_data(file_path):
     print("1. 웰니스 데이터셋 로드 및 카테고리 분류 중...")
