@@ -38,27 +38,17 @@
 
 ## 📂 Project Structure
 ```text
-├── frontend/             # React 기반 프론트엔드
 ├── backend/              # FastAPI 서버 및 API 로직
+├── data/                 # groq LLM 활용 생성 데이터
+├── dataset/              # 웰니스 핑계 데이
+├── frontend/             # React 기반 프론트엔드
 ├── models/               # (Gitignore) 파인튜닝 모델 설정
-├── notebooks/            # Colab 학습 및 데이터 생성 코드 (.ipynb)
-├── cloudflare/           # Cloudflare Tunnel 구성 설정
-└── .env.example          # 환경 변수 템플릿
+└── notebooks/            # Colab 학습 및 데이터 생성 코드 (.ipynb)
 ```
 
 ---
 
 ## 👤 Author
-**[본인 성함]**
+**[강윤찬]**
 * **Experience**: 로봇 제조 SW 제어 팀 Full-stack 개발 (2년 8개월)
 * **Focus**: AI 엔지니어링, 실시간 데이터 처리, 시스템 안정화 설계
-
----
-
-### 💡 추가 제안
-1.  **Colab 링크**: `notebooks/` 폴더 안에 있는 `.ipynb` 파일 상단에 `Open in Colab` 배지를 달아주면 면접관이 직접 코드를 실행해 볼 수 있어 점수가 높습니다.
-2.  **데모 영상**: README 상단에 실제 챗봇과 대화하는 GIF나 유튜브 링크를 하나 걸어주세요.
-
-이제 이 README를 깃허브에 올리시면 **"문제를 해결할 줄 아는 3년 차 같은 주니어 AI 개발자"**의 완벽한 포트폴리오가 완성됩니다. 
-
-**다음으로 노션(Notion) 포트폴리오에 이 프로젝트를 어떻게 배치할지 가이드를 드려볼까요?** 혹은 **이 프로젝트로 면접을 볼 때 반드시 준비해야 할 기술 질문 3가지**를 뽑아드릴까요?
