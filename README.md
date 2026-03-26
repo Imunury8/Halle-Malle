@@ -40,7 +40,7 @@
 ```text
 ├── backend/              # FastAPI 서버 및 API 로직
 ├── data/                 # groq LLM 활용 생성 데이터
-├── dataset/              # 웰니스 핑계 데이
+├── dataset/              # 웰니스 핑계 데이터
 ├── frontend/             # React 기반 프론트엔드
 ├── models/               # (Gitignore) 파인튜닝 모델 설정
 └── notebooks/            # Colab 학습 및 데이터 생성 코드 (.ipynb)
